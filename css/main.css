@@ -1,0 +1,52 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'ZCOOL KuaiLe', cursive;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  h1, h2 {
+      text-align: center;
+  }
+
+  section {
+      display: grid;
+      grid-template-columns: repeat(3, 10vmin);
+      grid-template-rows: repeat(3, 10vmin);
+      grid-gap: 0vmin;
+  }
+
+  section div {
+      font-size: 50px;
+      font-size-adjust: inherit;
+      
+      content: center;
+      
+  }
+
+  
+
+  .middlerow {
+    border-bottom: solid;
+    border-top: solid;
+
+  }
+
+  .middlecolumn {
+      border-left: solid;
+      border-right: solid;
+  }
+
+  button {
+      margin-top: 30px;
+      border: solid;
+
+  }
+
